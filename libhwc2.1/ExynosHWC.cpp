@@ -368,7 +368,7 @@ int32_t exynos_setColorModeWithRenderIntent(hwc2_device_t* dev, hwc2_display_t d
         return HWC2_ERROR_BAD_PARAMETER;
 
     ExynosDevice *exynosDevice = checkDevice(dev);
-    ALOGD("%s:: mode(%d), intent(%d)", __func__, mode, intent);
+    //ALOGD("%s:: mode(%d), intent(%d)", __func__, mode, intent);
 
     if (exynosDevice) {
         ExynosDisplay *exynosDisplay = checkDisplay(exynosDevice, display);
